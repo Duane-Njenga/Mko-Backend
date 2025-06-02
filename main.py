@@ -3,9 +3,9 @@ from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session 
 from typing import List
 from datetime import datetime
-from backend.database import engine, SessionLocal
-from backend.models import Base, Event
-from backend import schemas
+from database import engine, SessionLocal
+from models import Base, Event
+import schemas
 
 Base.metadata.create_all(bind=engine)
 
