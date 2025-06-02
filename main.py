@@ -43,6 +43,7 @@ def sample_data():
                     reviews=[],
                     ticket="https://ticketmojo.co.ke/event/project-x!#buy-ticket"
                 ),
+
                 Event(
                     id=2,
                     image="https://admin.ticketmojo.co.ke//storage/events/main_photo_1748776427.png",
@@ -50,11 +51,12 @@ def sample_data():
                     genre="Music",
                     date="2025-06-01",
                     location="Moov Bar & Bistro",
+                    organizer=None,
                     rating=5.0,
                     reviews=[],
-                    description="Soul-tie: Where Soul Meets Sound",
                     ticket="https://ticketmojo.co.ke/event/soul-tie#buy-ticket"
                 ),
+
                 Event(
                     id=3,
                     image="https://admin.ticketmojo.co.ke//storage/events/main_photo_1748197127.jpeg",
@@ -67,6 +69,7 @@ def sample_data():
                     reviews=[],
                     ticket="https://ticketmojo.co.ke/event/motherland-brunch-1.2#buy-ticket"
                 ),
+
                 Event(
                     id=4,
                     image="https://admin.ticketmojo.co.ke//storage/events/main_photo_1747827480.jpg",
@@ -77,9 +80,9 @@ def sample_data():
                     organizer="MAMBO JANGOR",
                     rating=5.0,
                     reviews=[],
-                    description="You're warmly invited to an exclusive full-moon journey to a hidden castle. Attire: Sovereign White",
                     ticket="https://ticketmojo.co.ke/event/mambo-jangor#buy-ticket"
                 ),
+
                 Event(
                     id=5,
                     image="https://admin.ticketmojo.co.ke//storage/events/main_photo_1747816947.png",
@@ -87,11 +90,75 @@ def sample_data():
                     genre="Technology",
                     date="2025-06-12",
                     location="Brew Bistro Ngong Road",
-                    organizer="Kenyan Indie Hackers",
+                    organizer=" Kenyan Indie Hackers",
                     rating=5.0,
                     reviews=[],
-                    description="Ready to build something real? Join fellow founders, makers, and aspiring VCs at Indie Hackers Kenya",
                     ticket="https://ticketmojo.co.ke/event/kenyan-indie-hackers#buy-ticket"
+                ),
+
+                Event(
+                    id=6,
+                    image="https://admin.ticketmojo.co.ke//storage/events/main_photo_1747731045.jpeg",
+                    name="RNB SOUL OUT PRE-TOUR (M...",
+                    genre="Music",
+                    date="2025-06-07",
+                    location="CURLTURE AT LUNA",
+                    organizer="Soul Out Festival",
+                    rating=5.0,
+                    reviews=[],
+                    ticket="https://ticketmojo.co.ke/event/rnb-soul-out-pre-tour-(meru)#buy-ticket"
+                ),
+
+                Event(
+                    id=7,
+                    image="https://admin.ticketmojo.co.ke//storage/events/main_photo_1747727949.JPG",
+                    name="Anime Watch Party 2",
+                    genre="Film",
+                    date="2025-07-05",
+                    location="Mohinder's Resraurant",
+                    organizer="Epic Ventors",
+                    rating=5.0,
+                    reviews=[],
+                    ticket="https://ticketmojo.co.ke/event/anime-watch-party-2#buy-ticket"
+                ),
+
+                Event(
+                    id=8,
+                    image="https://admin.ticketmojo.co.ke//storage/events/main_photo_1747636461.jpg",
+                    name="Drinks on Deck",
+                    genre="Party",
+                    date="2025-07-04",
+                    location="Diani",
+                    organizer="Fallen x Arctic",
+                    rating=5.0,
+                    reviews=[],
+                    ticket="https://ticketmojo.co.ke/event/drinks-on-deck#buy-ticket"
+                ),
+
+                Event(
+                    id=12,
+                    image="https://admin.ticketmojo.co.ke//storage/events/main_photo_1740592394.png",
+                    name="Chibweza Cup 3",
+                    genre="Sports",
+                    date="2025-08-16",
+                    location="TBA",
+                    organizer="Chibweza Cup",
+                    rating=5.0,
+                    reviews=[],
+                    ticket="https://ticketmojo.co.ke/event/chibweza-cup-3#buy-ticket"
+                ),
+
+                Event(
+                    id=13,
+                    image="https://admin.ticketmojo.co.ke//storage/events/main_photo_1736344184.png",
+                    name="LAUNCH PARTY",
+                    genre="Party",
+                    date="2025-04-04",
+                    location="Nova Apartments",
+                    organizer="Fantasy Fiesta KE",
+                    rating=5.0,
+                    reviews=[],
+                    ticket="https://ticketmojo.co.ke/event/launch-party#buy-ticket"
                 )
             ]
             db.add_all(sample_events)
