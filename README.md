@@ -1,8 +1,8 @@
-# Event Management API Documentation
+# M-ko Event Management API Documentation
 
 ## Overview
 
-The Event Management API is a FastAPI-based REST API for managing events. It provides endpoints for creating, reading, updating, and deleting events, as well as adding reviews to events.
+The M-ko Event Management API is a FastAPI-based REST API for managing events. It provides endpoints for creating, reading, updating, and deleting events, as well as adding reviews to events.
 
 **Base URL**: https://mko-backend.onrender.com
 **Version**: 1.0.0
